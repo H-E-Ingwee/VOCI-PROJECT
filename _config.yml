@@ -3,7 +3,12 @@ email: contact@voiceofchange.org
 description: Empowering communities through advocacy and action.
 baseurl: "/VOCI-PROJECT"  # Must match repository name
 url: "https://H-E-Ingwee.github.io"
-theme: jekyll-theme-cayman  # Professional, GitHub-compatible theme
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+header_pages:
+  - index.md
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/get-involved.md
